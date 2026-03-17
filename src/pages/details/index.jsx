@@ -25,7 +25,7 @@ export default function Details() {
     }
 
     getRecipeDetails();
-  }, []);
+  }, [id, setRecipeDetailsData]);
 
   console.log(recipeDetailsData, "recipeDetailsData");
 
@@ -35,6 +35,7 @@ export default function Details() {
         <div className="h-96 overflow-hidden rounded-xl group">
           <img
             src={recipeDetailsData?.recipe?.image_url}
+            alt={recipeDetailsData?.recipe?.title || "Recipe image"}
             className="w-full h-full object-cover block group-hover:scale-105 duration-300"
           />
         </div>

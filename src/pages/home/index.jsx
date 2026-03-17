@@ -202,19 +202,19 @@ export default function Home() {
                 <div>
                   <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                   <ul className="space-y-2">
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Home</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Recipes</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Categories</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Home</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Recipes</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Categories</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">About</button></li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold mb-4">Categories</h4>
                   <ul className="space-y-2">
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Italian</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Asian</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Healthy</a></li>
-                    <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Desserts</a></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Italian</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Asian</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Healthy</button></li>
+                    <li><button className="text-gray-400 hover:text-white transition duration-300 bg-none border-none cursor-pointer">Desserts</button></li>
                   </ul>
                 </div>
                 <div>
