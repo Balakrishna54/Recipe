@@ -64,8 +64,8 @@ export default function Details() {
             Ingredients:
           </span>
           <ul className="flex flex-col gap-3">
-            {recipeDetailsData?.recipe?.ingredients.map((ingredient) => (
-              <li>
+            {recipeDetailsData?.recipe?.ingredients.map((ingredient, index) => (
+              <li key={`${ingredient.description}-${index}`}>
                 <span className="text-2xl font-semibold text-black">
                   {ingredient.quantity} {ingredient.unit}
                 </span>
